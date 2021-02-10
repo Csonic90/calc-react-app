@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(150deg, rgba(145,86,225,1) 0%, rgba(255,151,104,1) 100%);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .calc-wrapper {
+    width: 370px;
+    height: 600px;
+    border-radius: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .input {
+    height: 102px;
+    display: flex;
+    padding: 10px;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 18px;
+    background-color: #212121;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+     
   }
-}
+  
+  .input-data {
+    color: #d98192;
+    font-weight: 600;
+  }
+  
+  .eql {
+    font-size: 50px;
+    color: #ffffff;
+  }
+  
+  .row {
+    display: flex;
+    width: 100%;
+  }
+  .button-wrapper {
+    font-family: 'Lato', sans-serif;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: lighter;
+    background: rgb(244,244,244);
+    background: linear-gradient(-20deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+    color: #212121;
+    border: none;
+    flex: 1;
+    outline:none;
+    }
+    /* .button-wrapper:hover {
+      background-color: 
+    } */
+    .button-wrapper:active {
+      position:relative;
+      
+    }
+  
+  .operator {
+    background: #8547d9;
+    color: #ffffff;
+  }
+  
+  .equale {
+    color: #ffffff;
+    background: #e62f89;
+    flex: 2; 
+  }
