@@ -1,4 +1,6 @@
-# Available Scripts
+#  Calculator app 
+Live Demo: [DEMO](https://calc-react-app-csonic.herokuapp.com/).
+
 
 In the project directory, you can run:
 
